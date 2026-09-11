@@ -5,6 +5,9 @@ on:
     branches:
       - main # Altere para 'master' se essa for sua branch principal
 
+permissions:
+  contents: read
+
 jobs:
   web-deploy:
     name: Deploy
